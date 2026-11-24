@@ -1,0 +1,52 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "url": "https://so4.market/referrals",
+    "isPartOf": {
+      "@id": "https://so4.market/#website"
+    },
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How is my fee discount applied?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your discount is applied automatically to every open and close fee when you have an active referral code. No additional action is required after setting the code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I change my referral code?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can update your referral code at any time. The new code's discount will apply going forward. Previous trades are not affected."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which fees get discounted?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The discount applies to opening and closing fees on all perpetual positions. Funding rates and price impact are not affected by referral discounts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I read more?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Full referral program documentation, tier thresholds, and commission structures are available in the SO4 docs. Look under the Referrals section."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://so4.market/#website",
+    "url": "https://so4.market",
+    "name": "SO4 Market",
+    "description": "A unified-liquidity perp DEX. Deep books, sub-second matching, and self-custodied risk — built for traders who care where their fills come from."
+  }
+]

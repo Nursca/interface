@@ -1,0 +1,42 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://so4.market/#org",
+    "name": "SO4 Markets",
+    "url": "https://so4.market",
+    "logo": "https://so4.market/logo512.png",
+    "sameAs": [
+      "https://twitter.com/so4market",
+      "https://discord.gg/so4market",
+      "https://t.me/so4market",
+      "https://github.com/SO4-Markets/interface"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "@id": "https://so4.market/#app",
+    "name": "SO4 Market",
+    "url": "https://so4.market",
+    "description": "A unified-liquidity perp DEX. Deep books, sub-second matching, and self-custodied risk — built for traders who care where their fills come from.",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "publisher": {
+      "@id": "https://so4.market/#org"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://so4.market/#website",
+    "url": "https://so4.market",
+    "name": "SO4 Market",
+    "description": "A unified-liquidity perp DEX. Deep books, sub-second matching, and self-custodied risk — built for traders who care where their fills come from."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://so4.market/#website",
+    "url": "https://so4.market",
+    "name": "SO4 Market",
+    "description": "A unified-liquidity perp DEX. Deep books, sub-second matching, and self-custodied risk — built for traders who care where their fills come from."
+  }
+]

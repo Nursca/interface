@@ -1,0 +1,78 @@
+{
+  "jsonLd": {
+    "/": [
+      "Organization",
+      "WebApplication",
+      "WebSite"
+    ],
+    "/referrals": [
+      "FAQPage",
+      "WebSite"
+    ],
+    "/pools": [
+      "WebSite"
+    ]
+  },
+  "axe": {
+    "/": [],
+    "/referrals": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 12
+      }
+    ],
+    "/pools": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 3
+      }
+    ],
+    "/trade": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 1
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 11
+      }
+    ]
+  },
+  "sort": {
+    "afterFirstClick": {
+      "url": "http://127.0.0.1:3000/pools?sort=tvl.asc",
+      "ariaSort": "ascending"
+    },
+    "poolDesc": {
+      "url": "http://127.0.0.1:3000/pools?sort=pool.desc",
+      "ariaSort": "descending",
+      "rows": [
+        "XLM/USD",
+        "ETH/USD",
+        "BTC/USD"
+      ]
+    },
+    "afterReload": {
+      "ariaSort": "descending",
+      "rows": [
+        "XLM/USD",
+        "ETH/USD",
+        "BTC/USD"
+      ]
+    },
+    "keyboard": {
+      "url": "http://127.0.0.1:3000/pools?sort=apr.asc",
+      "ariaSort": "ascending"
+    },
+    "reducedMotionTransition": "0.1s / none",
+    "normalTransition": "0.1s / linear(0 0%, 0.006 1.4%, 0.025 2.8%, 0.1",
+    "mobileTap": {
+      "url": "http://127.0.0.1:3000/pools?sort=pool.asc"
+    }
+  },
+  "notes": []
+}
